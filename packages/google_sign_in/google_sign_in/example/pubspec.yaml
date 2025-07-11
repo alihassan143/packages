@@ -1,10 +1,9 @@
 name: google_sign_in_example
 description: Example of Google Sign-In plugin.
 publish_to: none
-
 environment:
-  sdk: ^3.6.0
-  flutter: ">=3.27.0"
+  sdk: ^3.5.0
+  flutter: ">=3.24.0"
 
 dependencies:
   flutter:
