@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     namespace 'io.flutter.plugins.googlesignin'
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 36
 
     defaultConfig {
         minSdkVersion 21
