@@ -18,7 +18,12 @@ dependencies:
     path: ../
   google_sign_in_platform_interface: ^3.0.0
   http: ">=0.13.0 <2.0.0"
-
+dependency_overrides:
+  google_sign_in_platform_interface:
+    git:
+      url: https://github.com/alihassan143/packages.git
+      ref: main
+      path: packages/google_sign_in/google_sign_in_platform_interface
 dev_dependencies:
   flutter_test:
     sdk: flutter

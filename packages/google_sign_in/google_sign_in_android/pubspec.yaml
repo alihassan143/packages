@@ -21,13 +21,18 @@ dependencies:
   flutter:
     sdk: flutter
   google_sign_in_platform_interface: ^3.0.0
-
+dependency_overrides:
+  google_sign_in_platform_interface:
+    git:
+      url: https://github.com/alihassan143/packages.git
+      ref: main
+      path: packages/google_sign_in/google_sign_in_platform_interface
 dev_dependencies:
   build_runner: ^2.3.0
   flutter_test:
     sdk: flutter
-  mockito: ^5.4.4
-  pigeon: ^24.2.0
+  mockito:
+  pigeon:
 
 topics:
   - authentication
